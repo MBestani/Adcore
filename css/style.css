@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: url(../img/fondo.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  color: black; }
+
+.Header {
+  grid-area: Heade;
+  text-align: center;
+  color: black;
+  height: 15vh;
+  padding-top: 20px; }
+
+.Header p {
+  margin: 15px auto; }
+
+.Section-1 {
+  grid-area: Section-1;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.Section-1 h4 {
+  margin-right: 300px; }
+
+.Section-1 div {
+  display: flex;
+  margin: 1rem .5rem; }
+
+.Section-1 p {
+  max-width: 550px;
+  text-align: center;
+  margin: 1rem; }
+
+.Section-1 img {
+  width: 300px;
+  padding-left: 2rem; }
+
+.Section-2 {
+  grid-area: Section-2;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem; }
+
+.Section-2 h4 {
+  text-align: center;
+  font-size: 1.5rem; }
+
+.Section-3 {
+  grid-area: Section-3; }
+
+.Footer {
+  grid-area: Footer;
+  margin-top: 200px;
+  background-color: #007bff; }
+
+.Footer i {
+  font-size: 2rem; }
+
+.form {
+  grid-area: Section-2;
+  min-height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white; }
+
+.form input {
+  height: 2.5rem;
+  width: 350px;
+  text-align: center;
+  border-radius: 15px;
+  background-color: #0ee7f6; }
+
+.form input[type=reset]:hover {
+  background-color: #00a0b5;
+  color: black; }
+
+.form input[type=submit]:hover {
+  background-color: #00a0b5;
+  color: black; }
+
+nav {
+  color: black; }
+
+#propiedades {
+  max-height: 700px; }
+
+#texto {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  text-align: center; }
+
+#logo {
+  width: 100px;
+  height: 100px; }
+
+#servicios {
+  max-width: 300px;
+  max-height: 300px; }
+
+#servicios1 {
+  max-width: 200px;
+  max-height: 200px; }
+
+#carrusel {
+  margin-top: 20px; }
+
+.grilla {
+  display: grid;
+  grid-template-columns: 1fr 2.5fr 2.5fr 1fr;
+  grid-template-areas: "Nav Nav Nav Nav" "Section-1 Section-1 Section-1 Section-1" "Section-2 Section-2 Section-2 Section-2" "Section-3 Section-3 Section-3 Section-3" "Footer Footer Footer Footer"; }
+
+.Aside {
+  grid-area: Aside; }
+
+@media (max-width: 768px) {
+  .grilla {
+    grid-template-areas: "Nav Nav Nav Nav" "Header Header Header Header" "Section-1 Section-1 Section-1 Section-1 " "Section-2 Section-2 Section-2 Section-2 " "Section-3 Section-3 Section-3 Section-3" "Footer Footer Footer Footer"; }
+  .Aside {
+    display: none; }
+  .Nav {
+    flex-direction: row;
+    padding: 20px; }
+  .Nav ul {
+    display: flex;
+    /* flex-direction: row; */ }
+  .ul2 {
+    display: none; }
+  #servicios {
+    max-width: 100px;
+    max-height: 100px;
+    align-items: center; }
+  #servicios1 {
+    max-width: 75px;
+    max-height: 75px;
+    align-items: center; } }
+
+@media (max-width: 480px) {
+  .Section-1 img {
+    display: none; }
+  #servicios {
+    display: none; }
+  #servicios1 {
+    display: none; } }
