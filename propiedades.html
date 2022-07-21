@@ -18,9 +18,9 @@
     <title>Inmobiliaria ADCORE</title>
 </head>
 
-<body>
+<body id="Body">
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
         <div class="container-fluid">
             <a class="navbar-brand" href="./index.html"><img src="./img/logo.jpg" id="logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -30,16 +30,19 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./propiedades.html">Propiedades</a>
+                        <a class="nav-link text-info" href="./index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                        <a class="nav-link active text-info" aria-current="page" href="./propiedades.html">Propiedades</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                        <a class="nav-link text-info" href="./nosotros.html">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./Servicios.html">Servicios</a>
+                        <a class="nav-link text-info" href="./contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-info" href="./Servicios.html">Servicios</a>
                     </li>
                 </ul>
             </div>
@@ -66,22 +69,22 @@
             <div class="carousel-item active" data-bs-interval="10000">
                 <img src="./img/1.jfif" class="d-block w-100" id="propiedades">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Hermosa Casa en barrio privado</h5>
-                    <p>Precio: 87000 usd</p>
+                    <h5 id="textoImagen">Hermosa Casa en barrio privado</h5>
+                    <p id="textoImagen">Precio: 87000 usd</p>
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="2000">
                 <img src="./img/ce4e05a1-355a-444c-aa0e-4883dabda199.jfif" class="d-block w-100" id="propiedades">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Terreno en zona yerba buena</h5>
-                    <p>22000 usd</p>
+                    <h5 id="textoImagen">Terreno en zona yerba buena</h5>
+                    <p id="textoImagen">22000 usd</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="./img/4.jfif" class="d-block w-100" alt="...">
+                <img src="./img/casa.jpeg" class="d-block w-100" id="propiedades">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Duplex a estrenar</h5>
-                    <p>Precio: 65000</p>
+                    <h5 id="textoImagen">Casa en yerba buena</h5>
+                    <p id="textoImagen">Precio: 65000</p>
                 </div>
             </div>
         </div>

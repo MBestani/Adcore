@@ -18,27 +18,30 @@
     <title>Inmobiliaria ADCORE</title>
 </head>
 
-<body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+<body id="Body">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
             <div class="container-fluid">
                 <a class="navbar-brand" href="./index.html"><img src="./img/logo.jpg" id="logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    aria-controls="navbarNavDropdown " aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./propiedades.html">Propiedades</a>
+                            <a class="nav-link text-info" href="./index.html">Inicio</a>
+                          </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-info"  href="./propiedades.html">Propiedades</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                            <a class="nav-link text-info" href="./nosotros.html">Nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                            <a class="nav-link active text-info" aria-current="page" href="./contacto.html">Contacto</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./Servicios.html">Servicios</a>
+                            <a class="nav-link text-info" href="./Servicios.html">Servicios</a>
                         </li>
                     </ul>
                 </div>
@@ -62,7 +65,7 @@
                     <p>Contraseña</p>
                     <input type="Password">
                     <p>Dejanos tu Consulta</p>
-                    <textarea cols="60" rows="5"></textarea>
+                    <textarea cols="60" rows="5" id="textArea"></textarea>
                     <br>
                     <label>
                         <span>Suscribirme para recibir ofertas</span>
