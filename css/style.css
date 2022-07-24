@@ -119,12 +119,6 @@
   background-color: #455A64; }
 
 @media (max-width: 768px) {
-  .Nav {
-    flex-direction: row;
-    padding: 20px; }
-  .Nav ul {
-    display: flex;
-    /* flex-direction: row; */ }
   .ul2 {
     display: none; }
   #servicios {
